@@ -57,4 +57,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Preference default value -->
     <string name="pref_value_default">Default</string>
 
+    <!-- Folder titles -->
+    <string name="google_folder_title" translatable="false">Google</string>
+
 </resources>
