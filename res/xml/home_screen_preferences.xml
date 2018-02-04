@@ -15,4 +15,13 @@
         android:defaultValue="true"
         android:persistent="true"/>
 
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref_workspace_edit"
+        android:persistent="true"
+        android:title="@string/settings_edit_allow_title"
+        android:summaryOn="@string/settings_edit_allow_summary_on"
+        android:summaryOff="@string/settings_edit_allow_summary_off" />
+
+
 </androidx.preference.PreferenceScreen> 
