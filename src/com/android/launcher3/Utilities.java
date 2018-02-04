@@ -930,7 +930,8 @@ public final class Utilities {
         return a == null && b == null;
     }
 
-    public static boolean bothNonNull(@Nullable Object a, @Nullable Object b) {
-        return a != null && b != null;
+    public static boolean isWorkspaceEditAllowed(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return !prefs.getBoolean(InvariantDeviceProfile.KEY_WORKSPACE_LOCK, false);
     }
 }
