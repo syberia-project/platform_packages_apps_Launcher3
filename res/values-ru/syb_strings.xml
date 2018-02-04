@@ -60,4 +60,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="trust_apps_info_hidden">Скрытые приложения и их виджеты будут спрятаны с рабочего стола</string>
     <string name="trust_apps_info_protected">Защищенные прилоежния требуют авторизацию при запуске</string>
 
+    <string name="settings_edit_allow_title">Разрешить редактирование</string>
+    <string name="settings_edit_allow_summary_on">Иконки и виджеты могут быть добавлены, удалены и перемещены на главный экран</string>
+    <string name="settings_edit_allow_summary_off">Иконки и виджеты не могут быть добавлены, удалены и перемещены на главный экран</string>
+    <string name="settings_edit_widgets_error">Невозможно добавить виджеты на главный экран</string>
+
 </resources>
