@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* Copyright (C) 2016 The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<resources>
+
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Показывать приложение Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Когда вы делаете свайп слева направо на главном рабочем столе</string>
+    <string name="msg_minus_one_on_right">Когда вы делаете свайп справа налево на главном рабочем столе</string>
+
+    <!-- Gestures -->
+    <string name="pref_dt_gesture_title">Двойное нажатие</string>
+    <string name="pref_dt_gesture_summary">Дважды нажмите на пустом месте для выключения экрана</string>
+
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Показывать подписи иконок на рабочем столе</string>
+    <string name="drawer_show_labels">Показывать подписи иконок в списке приложений</string>
+
+</resources>
