@@ -23,5 +23,10 @@
         android:summaryOn="@string/settings_edit_allow_summary_on"
         android:summaryOff="@string/settings_edit_allow_summary_off" />
 
+    <SwitchPreference
+        android:key="pref_desktop_show_labels"
+        android:title="@string/desktop_show_labels"
+        android:defaultValue="true"
+        android:persistent="true" />
 
 </androidx.preference.PreferenceScreen> 
