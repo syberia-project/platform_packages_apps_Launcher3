@@ -45,4 +45,8 @@
     <!-- Font size -->
     <string name="font_size_title">Размер шрифта</string>
 
+    <!-- Force stop shortcut -->
+    <string name="recent_task_force_stop_app">Принудительная остановка</string>
+    <string name="recents_app_force_stopped">Приложение остановлено</string>
+
 </resources>
