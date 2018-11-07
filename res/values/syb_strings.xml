@@ -61,4 +61,8 @@
     <string name="smartspace_pref_title">At a Glance</string>
     <string name="smartspace_pref_summary">Show smartspace at the top of home screen</string>
 
+    <!-- Force stop shortcut -->
+    <string name="recent_task_force_stop_app">Force stop</string>
+    <string name="recents_app_force_stopped">App force stopped</string>
+
 </resources>
