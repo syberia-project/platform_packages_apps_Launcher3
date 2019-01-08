@@ -19,15 +19,6 @@ LOCAL_PATH := $(call my-dir)
 #
 # Prebuilt Java Libraries
 #
-include $(CLEAR_VARS)
-LOCAL_MODULE := libSharedSystemUI
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_SRC_FILES := quickstep/libs/sysui_shared.jar
-LOCAL_UNINSTALLABLE_MODULE := true
-LOCAL_PRIVATE_PLATFORM_APIS := true
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := gsa
@@ -154,8 +145,9 @@ LOCAL_AAPT2_ONLY := true
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    libSharedSystemUI \
+    SystemUISharedLib \
     libGoogleFeed
+
 LOCAL_STATIC_ANDROID_LIBRARIES := Launcher3CommonDepsLib
 
 LOCAL_SRC_FILES := \
@@ -210,8 +202,9 @@ LOCAL_USE_AAPT2 := true
 LOCAL_MODULE_TAGS := optional
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
-    libSharedSystemUI \
+    SystemUISharedLib \
     libGoogleFeed
+
 LOCAL_STATIC_ANDROID_LIBRARIES := Launcher3CommonDepsLib
 
 LOCAL_SRC_FILES := \
@@ -246,7 +239,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-annotations \
-    libSharedSystemUI \
+    SystemUISharedLib \
     gsa
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
