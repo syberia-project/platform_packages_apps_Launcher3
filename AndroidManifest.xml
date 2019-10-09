@@ -69,6 +69,38 @@
                 android:value="${packageName}.grid_control" />
         </activity>
 
+        <!-- Icons -->
+        <activity
+            android:name="com.android.launcher3.settings.SettingsIcons"
+            android:label="@string/icons_category_title"
+            android:theme="@style/HomeSettingsTheme"
+            android:autoRemoveFromRecents="true"
+            android:parentActivityName="com.android.launcher3.settings.SettingsActivity" />
+
+        <!-- App drawer -->
+        <activity
+            android:name="com.android.launcher3.settings.SettingsAppDrawer"
+            android:label="@string/app_drawer_category_title"
+            android:theme="@style/HomeSettingsTheme"
+            android:autoRemoveFromRecents="true"
+            android:parentActivityName="com.android.launcher3.settings.SettingsActivity" />
+
+        <!-- Homescreen -->
+        <activity
+            android:name="com.android.launcher3.settings.SettingsHomescreen"
+            android:label="@string/home_category_title"
+            android:theme="@style/HomeSettingsTheme"
+            android:autoRemoveFromRecents="true"
+            android:parentActivityName="com.android.launcher3.settings.SettingsActivity" />
+
+        <!-- Misc settings -->
+        <activity
+            android:name="com.android.launcher3.settings.SettingsMisc"
+            android:label="@string/misc_category_title"
+            android:theme="@style/HomeSettingsTheme"
+            android:autoRemoveFromRecents="true"
+            android:parentActivityName="com.android.launcher3.settings.SettingsActivity" />
+
         <activity
             android:name=".trust.TrustAppsActivity"
             android:label="@string/trust_apps_manager_name"

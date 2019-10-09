@@ -17,6 +17,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- General -->
+    <string name="settings_title">Настройки</string>
+
+    <!-- Categories -->
+    <string name="home_category_title">Домашний экран</string>
+    <string name="home_category_summary">Панель Google и прочее</string>
+    <string name="icons_category_title">Иконки</string>
+    <string name="icons_category_summary">Форма иконок и прочее</string>
+    <string name="app_drawer_category_title">Панель приложений</string>
+    <string name="app_drawer_category_summary">Настройка панели приложений</string>
+    <string name="misc_category_title">Разное</string>
+    <string name="misc_category_summary">Защищенные приложения, жесты и прочее</string>
+
     <!-- Show searchbar -->
     <string name="show_searchbar_title">Панель поиска</string>
     <string name="show_searchbar_summary">Отображать панель поиска Google на домашнем экране</string>
