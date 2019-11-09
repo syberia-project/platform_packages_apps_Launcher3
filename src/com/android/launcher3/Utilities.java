@@ -134,9 +134,7 @@ public final class Utilities {
 
     private static final long WAIT_BEFORE_RESTART = 250;
 
-    public static final boolean IS_DEBUG_DEVICE =
-            Build.TYPE.toLowerCase(Locale.ROOT).contains("debug") ||
-            Build.TYPE.toLowerCase(Locale.ROOT).equals("eng");
+    public static final boolean IS_DEBUG_DEVICE = false;
 
     public static boolean isDevelopersOptionsEnabled(Context context) {
         return Settings.Global.getInt(context.getApplicationContext().getContentResolver(),
