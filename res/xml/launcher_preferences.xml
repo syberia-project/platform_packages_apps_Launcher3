@@ -19,6 +19,13 @@
     xmlns:launcher="http://schemas.android.com/apk/res-auto"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.launcher3">
 
+    <com.android.launcher3.settings.preference.ReloadingListPreference
+        android:key="pref_icon_pack"
+        android:title="@string/app_info_icon_pack"
+        android:summary="@string/placeholder_string"
+        android:defaultValue=""
+        android:persistent="true" />
+
     <com.android.launcher3.settings.NotificationDotsPreference
         android:key="pref_icon_badging"
         android:title="@string/notification_dots_title"
@@ -56,7 +63,7 @@
         android:key="pref_enable_minus_one"
         android:summary="@string/pref_show_google_now_summary"
         android:title="@string/title_show_google_app"/>
-        
+
     <SwitchPreference
         android:key="pref_dt_gesture"
         android:title="@string/pref_dt_gesture_title"
