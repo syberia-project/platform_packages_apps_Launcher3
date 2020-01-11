@@ -34,6 +34,7 @@
     <!-- String representing the fragment class for settings activity.-->
     <string name="settings_fragment_name" translatable="false">com.android.launcher3.settings.SettingsActivity$LauncherSettingsFragment</string>
 
+
     <!-- DragController -->
     <item type="id" name="drag_event_parity" />
 
@@ -204,4 +205,5 @@
     <!-- The max scale for the wallpaper when it's zoomed in -->
     <item name="config_wallpaperMaxScale" format="float" type="dimen">0</item>
 
+    <string name="drawable_factory_class" translatable="false">com.android.launcher3.icons.ThirdPartyDrawableFactory</string>
 </resources>
