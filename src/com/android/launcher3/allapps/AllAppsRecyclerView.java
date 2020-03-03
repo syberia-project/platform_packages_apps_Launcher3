@@ -50,7 +50,7 @@ public class AllAppsRecyclerView extends BaseRecyclerView implements LogContaine
 
     private AlphabeticalAppsList mApps;
     private AllAppsFastScrollHelper mFastScrollHelper;
-    private int mNumAppsPerRow;
+    private final int mNumAppsPerRow;
 
     // The specific view heights that we use to calculate scroll
     private SparseIntArray mViewHeights = new SparseIntArray();
@@ -427,10 +427,4 @@ public class AllAppsRecyclerView extends BaseRecyclerView implements LogContaine
     public boolean hasOverlappingRendering() {
         return false;
     }
-
-    public void onDeviceProfileChanged(int appsPerRow) {
-        mNumAppsPerRow = appsPerRow;
-        updatePoolSize();
-    }
-
 }
