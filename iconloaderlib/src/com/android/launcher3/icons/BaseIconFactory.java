@@ -23,6 +23,7 @@ import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.os.Process;
 import android.os.UserHandle;
+
 import androidx.annotation.NonNull;
 
 /**
@@ -38,6 +39,8 @@ public class BaseIconFactory implements AutoCloseable {
 
     public static final String KEY_PREF_LEGACY_ICON_MASK = "pref_legacy_icon_mask";
     public static final String SHARED_PREFERENCES_KEY = "com.android.launcher3.prefs";
+
+    private static final float ICON_BADGE_SCALE = 0.444f;
 
     private final Rect mOldBounds = new Rect();
     protected final Context mContext;
@@ -255,7 +258,7 @@ public class BaseIconFactory implements AutoCloseable {
      * Adds the {@param badge} on top of {@param target} using the badge dimensions.
      */
     public void badgeWithDrawable(Canvas target, Drawable badge) {
-        int badgeSize = mContext.getResources().getDimensionPixelSize(R.dimen.profile_badge_size);
+        int badgeSize = getBadgeSizeForIconSize(mIconBitmapSize);
         badge.setBounds(mIconBitmapSize - badgeSize, mIconBitmapSize - badgeSize,
                 mIconBitmapSize, mIconBitmapSize);
         badge.draw(target);
@@ -343,6 +346,13 @@ public class BaseIconFactory implements AutoCloseable {
     public static SharedPreferences getPrefs(Context context) {
         return context.getSharedPreferences(
                 SHARED_PREFERENCES_KEY, Context.MODE_PRIVATE);
+    }
+
+    /**
+     * Returns the correct badge size given an icon size
+     */
+    public static int getBadgeSizeForIconSize(int iconSize) {
+        return (int) (ICON_BADGE_SCALE * iconSize);
     }
 
     /**
