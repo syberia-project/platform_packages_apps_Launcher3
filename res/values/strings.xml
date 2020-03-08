@@ -482,4 +482,7 @@
     <!-- Strings for bubble bar -->
     <!-- content description for the overflow bubble [CHAR_LIMIT=none] -->
     <string name="bubble_bar_overflow_description">Overflow</string>
+
+    <!-- Folder titles -->
+    <string name="google_folder_title" translatable="false">Google</string>
 </resources>
