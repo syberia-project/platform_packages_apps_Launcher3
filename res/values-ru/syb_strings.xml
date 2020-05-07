@@ -68,4 +68,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="desktop_show_labels">Отображать подписи значков на рабочем столе</string>
     <string name="drawer_show_labels">Отображать подписи значков в меню</string>
 
+    <string name="desktop_two_line_labels">Отображать подписи в две строки на рабочем столе</string>
+    <string name="drawer_two_line_labels">Отображать подписи в две строки в меню</string>
+
 </resources>
