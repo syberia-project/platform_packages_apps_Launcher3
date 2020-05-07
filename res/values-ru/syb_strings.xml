@@ -49,4 +49,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="trust_apps_info_hidden">Скрытые приложения и их виджеты будут спрятаны с рабочего стола</string>
     <string name="trust_apps_info_protected">Защищенные прилоежния требуют авторизацию при запуске</string>
 
+    <string name="two_line_labels">Отображать подписи в две строки на рабочем столе</string>
+
 </resources>
