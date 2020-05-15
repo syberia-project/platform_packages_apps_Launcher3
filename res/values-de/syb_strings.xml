@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2018-2019 Syberia Project
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <string name="settings_title">Einstellungen</string>
+    <!-- Categories -->
+    <string name="home_category_title">Startbildschirm</string>
+    <string name="home_category_summary">Anpassungen des Startbildschirms</string>
+    <string name="icons_category_title">Symbole</string>
+    <string name="icons_category_summary">Symboleinstellungen</string>
+    <string name="app_drawer_category_title">App-Übersicht</string>
+    <string name="app_drawer_category_summary">App-Übersicht konfigurieren</string>
+    <string name="misc_category_title">Diverses</string>
+    <string name="misc_category_summary">Geschützte Apps, Gesten Einstellungen...</string>
+    <!-- Show searchbar -->
+    <string name="show_searchbar_title">Suchleiste anzeigen</string>
+    <string name="show_searchbar_summary">Suchleiste auf dem Startbildschirm anzeigen</string>
+    <string name="state_loading">Wird angewendet\u2026</string>
+    <!-- Google Feed -->
+    <string name="settings_feed_title">Google Feed-Integration aktivieren</string>
+    <string name="settings_feed_summary">Links neben dem Startbildschirm</string>
+    <!-- Gestures -->
+    <string name="gestures_category">Gesten</string>
+    <string name="allow_swipe_down_clearall_title">Nach unten wischen in der App-Ansicht beendet alle laufenden Apps</string>
+    <string name="allow_swipe_down_clearall_desc">Zum löschen der App-Ansicht nach unten wischen</string>
+    <string name="pref_notifications_gesture_title">Benachrichtigungsgeste</string>
+    <string name="pref_notifications_gesture_summary">Nach unten wischen um Benachrichtigungen anzuzeigen</string>
+    <string name="pref_dt_gesture_title">Doppeltipp-Geste</string>
+    <string name="pref_dt_gesture_summary">Doppeltippen Sie auf eine leere Stelle zum Ausschalten</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Versteckte &amp; geschützte Apps</string>
+    <string name="trust_apps_manager_name_dialog">Geschützte App</string>
+    <string name="trust_apps_auth_manager">Entsperren, um die versteckten und geschützten Apps zu verwalten</string>
+    <string name="trust_apps_auth_open_app">Authentifizieren, um %1$s zu öffnen</string>
+    <string name="trust_apps_loading">Lädt\u2026</string>
+    <string name="trust_apps_no_lock_error">Bitte richten Sie einen sicheren Sperrbildschirm ein, um den App-Zugriff zu beschränken</string>
+    <string name="trust_apps_help">Hilfe</string>
+    <string name="trust_apps_info_hidden">Versteckte Apps und ihre Widgets werden in der App-Übersicht nicht angezeigt</string>
+    <string name="trust_apps_info_protected">Geschützte Apps erfordern eine Authentifizierung, um gestartet werden zu können</string>
+    <!-- Edit workspace -->
+    <string name="settings_edit_allow_title">Bearbeitungen zulassen</string>
+    <string name="settings_edit_allow_summary_on">Symbole und Widgets können auf dem Startbildschirm hinzugefügt, entfernt und verschoben werden</string>
+    <string name="settings_edit_allow_summary_off">Symbole und Widgets können nicht auf dem Startbildschirm hinzugefügt, entfernt und verschoben werden</string>
+    <string name="settings_edit_widgets_error">Es ist nicht möglich, Widgets zum Startbildschirm hinzuzufügen</string>
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Symbolbeschriftungen auf dem Startbildschirm anzeigen</string>
+    <string name="drawer_show_labels">Symbolbeschriftungen in der App-Übersicht anzeigen</string>
+    <!-- Two line labels -->
+    <string name="desktop_two_line_labels">Zweireihige Symbolbeschriftungen auf dem Startbildschirm anzeigen</string>
+    <string name="drawer_two_line_labels">Zweireihige Symbolbeschriftungen in der App-Übersicht anzeigen</string>
+    <!-- AppInfo -->
+    <string name="app_info_subtext">Nach unten wischen, um die App-Informationen zu schließen.</string>
+    <string name="placeholder_string">Lädt...</string>
+    <!-- Used for preference height loading. -->
+    <string name="app_info_icon_pack">Symbolpaket</string>
+    <string name="app_info_icon_pack_none">Nichts</string>
+    <string name="app_info_source">Quelle</string>
+    <string name="app_info_source_unknown">Unbekannt</string>
+    <string name="app_info_last_update">Letzte Aktualisierung</string>
+    <string name="app_info_version">Version</string>
+    <string name="app_info_more">Mehr</string>
+    <!-- Preference default value -->
+    <string name="pref_value_default">Standard</string>
+</resources>

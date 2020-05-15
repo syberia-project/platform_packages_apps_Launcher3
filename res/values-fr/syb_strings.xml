@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2018-2019 Syberia Project
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <string name="settings_title">Réglages</string>
+    <!-- Categories -->
+    <string name="home_category_title">Ecran d\'accueil</string>
+    <string name="home_category_summary">Définir le panel Google now et plus</string>
+    <string name="icons_category_title">Icônes</string>
+    <string name="icons_category_summary">Définir les formes des icônes et autres</string>
+    <string name="app_drawer_category_title">Tiroir d\'applications</string>
+    <string name="app_drawer_category_summary">Personnaliser votre tiroir d\'applications</string>
+    <string name="misc_category_title">Divers</string>
+    <string name="misc_category_summary">Applications protégées, paramètres des gestes...</string>
+    <!-- Show searchbar -->
+    <string name="show_searchbar_title">Afficher la barre de recherche</string>
+    <string name="show_searchbar_summary">Afficher la barre de recherche sur l\'écran d\'accueil</string>
+    <string name="state_loading">Application en cours\u2026</string>
+    <!-- Google Feed -->
+    <string name="settings_feed_title">Activer l\'intégration de flux Google</string>
+    <string name="settings_feed_summary">À gauche de l\'écran d\'accueil</string>
+    <!-- Gestures -->
+    <string name="gestures_category">Gestes</string>
+    <string name="allow_swipe_down_clearall_title">Tout fermer en glissant vers le bas depuis la vue des éléments récents</string>
+    <string name="allow_swipe_down_clearall_desc">Faites glisser le doigt vers le bas dans le panneau d\'applications récentes pour tout fermer</string>
+    <string name="pref_notifications_gesture_title">Gestes des notifications</string>
+    <string name="pref_notifications_gesture_summary">Faites glisser le doigt vers le bas sur l\'écran d\'accueil pour montrer le panneau de paramètres rapides</string>
+    <string name="pref_dt_gesture_title">Geste par double appui</string>
+    <string name="pref_dt_gesture_summary">Double appui sur un espace vide pour éteindre l\'écran</string>
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Applications cachées &amp; protégées</string>
+    <string name="trust_apps_manager_name_dialog">Applications protégées</string>
+    <string name="trust_apps_auth_manager">Déverrouiller pour gérer les applications cachées et protégées</string>
+    <string name="trust_apps_auth_open_app">Authentifier pour ouvrir %1$s</string>
+    <string name="trust_apps_loading">Chargement en cours\u2026</string>
+    <string name="trust_apps_no_lock_error">Veuillez configurer un écran de verrouillage pour restreindre l\'accès aux applications</string>
+    <string name="trust_apps_help">Aide</string>
+    <string name="trust_apps_info_hidden">Les applications cachées et leurs widgets sont cachés du tiroir d\'applications</string>
+    <string name="trust_apps_info_protected">Les applications protégées nécessitent une authentification pour être ouvertes depuis le lanceur</string>
+    <!-- Edit workspace -->
+    <string name="settings_edit_allow_title">Autoriser les modifications</string>
+    <string name="settings_edit_allow_summary_on">Autoriser l\'ajout, la suppression ou le déplacement d\'icônes et de widgets sur l\'écran d\'accueil</string>
+    <string name="settings_edit_allow_summary_off">Les icones et widgets ne peuvent pas être ajoutés, supprimés ou bougés sur l\'écran d\'accueil</string>
+    <string name="settings_edit_widgets_error">Impossible d\'ajouter des widgets sur l\'écran d\'accueil</string>
+    <!-- Hide labels -->
+    <string name="desktop_show_labels">Afficher le libellé des icônes sur le bureau</string>
+    <string name="drawer_show_labels">Afficher les libellés des icônes dans le tiroir d\'applications</string>
+    <!-- Two line labels -->
+    <string name="desktop_two_line_labels">Autoriser l\'affichage des libellés des icônes en deux lignes sur le bureau</string>
+    <string name="drawer_two_line_labels">Autoriser l\'affichage des libellés des icônes en deux lignes sur le tiroir d\'applications</string>
+    <!-- AppInfo -->
+    <string name="app_info_subtext">Glissez vers le bas pour fermer la page d\'information de l\'application.</string>
+    <string name="placeholder_string">Chargement en cours...</string>
+    <!-- Used for preference height loading. -->
+    <string name="app_info_icon_pack">Pack d\'icônes</string>
+    <string name="app_info_icon_pack_none">Aucun</string>
+    <string name="app_info_source">Source</string>
+    <string name="app_info_source_unknown">Inconnu</string>
+    <string name="app_info_last_update">Dernière mise à jour</string>
+    <string name="app_info_version">Version</string>
+    <string name="app_info_more">Plus</string>
+    <!-- Preference default value -->
+    <string name="pref_value_default">Par défaut</string>
+</resources>
