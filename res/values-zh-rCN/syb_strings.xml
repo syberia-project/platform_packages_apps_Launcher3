@@ -16,63 +16,63 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General -->
-    <string name="settings_title">Settings</string>
+    <string name="settings_title">设置</string>
     <!-- Categories -->
-    <string name="home_category_title">Home screen</string>
-    <string name="home_category_summary">Set Google now panel and more</string>
-    <string name="icons_category_title">Icons</string>
-    <string name="icons_category_summary">Set icon shape and more</string>
-    <string name="app_drawer_category_title">App drawer</string>
-    <string name="app_drawer_category_summary">Customize your app drawer</string>
-    <string name="misc_category_title">Miscellaneous</string>
-    <string name="misc_category_summary">Protected apps, gesture settings...</string>
+    <string name="home_category_title">主屏幕</string>
+    <string name="home_category_summary">设置 Google now 面板等</string>
+    <string name="icons_category_title">图标</string>
+    <string name="icons_category_summary">设置主题、图标形状以及更多=￣ω￣=</string>
+    <string name="app_drawer_category_title">应用抽屉</string>
+    <string name="app_drawer_category_summary">自定义应用抽屉</string>
+    <string name="misc_category_title">杂项设置</string>
+    <string name="misc_category_summary">受保护的应用，手势设置...</string>
     <!-- Show searchbar -->
-    <string name="show_searchbar_title">Show search bar</string>
-    <string name="show_searchbar_summary">Show the search bar on the home screen</string>
-    <string name="state_loading">Applying\u2026</string>
+    <string name="show_searchbar_title">显示搜索栏</string>
+    <string name="show_searchbar_summary">在主屏幕上显示搜索栏</string>
+    <string name="state_loading">正在应用\u2026</string>
     <!-- Google Feed -->
-    <string name="settings_feed_title">Enable Google feed integration</string>
-    <string name="settings_feed_summary">To the left of the main home screen</string>
+    <string name="settings_feed_title">启用 Google 资讯集成</string>
+    <string name="settings_feed_summary">负一屏</string>
     <!-- Gestures -->
-    <string name="gestures_category">Gestures</string>
-    <string name="allow_swipe_down_clearall_title">Clear all on swipe down from recents view</string>
-    <string name="allow_swipe_down_clearall_desc">Swipe vertically downward in recents view to clear all apps</string>
-    <string name="pref_notifications_gesture_title">Notifications gesture</string>
-    <string name="pref_notifications_gesture_summary">Swipe vertically downward on the home screen to show the QS panel</string>
-    <string name="pref_dt_gesture_title">Double tap gesture</string>
-    <string name="pref_dt_gesture_summary">Double tap on empty space for power-off</string>
+    <string name="gestures_category">手势操作</string>
+    <string name="allow_swipe_down_clearall_title">向下滑动以离开最近任务</string>
+    <string name="allow_swipe_down_clearall_desc">在最近视图中垂直向下滑动以离开所有应用</string>
+    <string name="pref_notifications_gesture_title">通知手势</string>
+    <string name="pref_notifications_gesture_summary">在主屏幕上垂直下滑以显示快速设置面板</string>
+    <string name="pref_dt_gesture_title">双击手势</string>
+    <string name="pref_dt_gesture_summary">双击空白处以关闭电源</string>
     <!-- Trust apps -->
-    <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
-    <string name="trust_apps_manager_name_dialog">Protected app</string>
-    <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
-    <string name="trust_apps_auth_open_app">Authenticate to open %1$s</string>
-    <string name="trust_apps_loading">Loading\u2026</string>
-    <string name="trust_apps_no_lock_error">Please set up a secure lock screen to restrict app access</string>
-    <string name="trust_apps_help">Help</string>
-    <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
-    <string name="trust_apps_info_protected">Protected apps require authentication to be opened from the launcher</string>
+    <string name="trust_apps_manager_name">隐藏和保护应用</string>
+    <string name="trust_apps_manager_name_dialog">受保护的应用</string>
+    <string name="trust_apps_auth_manager">解锁以管理隐藏和受保护的应用</string>
+    <string name="trust_apps_auth_open_app">认证以打开 %1$s</string>
+    <string name="trust_apps_loading">加载中\u2026</string>
+    <string name="trust_apps_no_lock_error">请设置一个安全锁屏密码以限制应用访问</string>
+    <string name="trust_apps_help">帮助</string>
+    <string name="trust_apps_info_hidden">从抽屉中隐藏应用和其他小部件</string>
+    <string name="trust_apps_info_protected">需要经过认证才能从启动器打开受保护的应用</string>
     <!-- Edit workspace -->
-    <string name="settings_edit_allow_title">Allow edit</string>
-    <string name="settings_edit_allow_summary_on">Icons and widgets can be added, removed and moved on the homescreen</string>
-    <string name="settings_edit_allow_summary_off">Icons and widgets can\'t be added, removed and moved on the homescreen</string>
-    <string name="settings_edit_widgets_error">It\'s not possible to add widgets to the home screen</string>
+    <string name="settings_edit_allow_title">允许编辑</string>
+    <string name="settings_edit_allow_summary_on">可以在桌面上添加、删除和移动图标以及小部件</string>
+    <string name="settings_edit_allow_summary_off">不能在桌面上添加、删除和移动图标以及小部件</string>
+    <string name="settings_edit_widgets_error">无法将小部件添加到主屏幕中</string>
     <!-- Hide labels -->
-    <string name="desktop_show_labels">Show icon labels on desktop</string>
-    <string name="drawer_show_labels">Show icon labels in drawer</string>
+    <string name="desktop_show_labels">在主屏幕上显示图标标签</string>
+    <string name="drawer_show_labels">在抽屉里显示图标标签</string>
     <!-- Two line labels -->
-    <string name="desktop_two_line_labels">Allow two line labels on desktop</string>
-    <string name="drawer_two_line_labels">Allow two line labels in drawer</string>
+    <string name="desktop_two_line_labels">允许桌面上有两行标签</string>
+    <string name="drawer_two_line_labels">允许在抽屉里有两行标签</string>
     <!-- AppInfo -->
-    <string name="app_info_subtext">Swipe down to close app info.</string>
-    <string name="placeholder_string">Loading...</string>
+    <string name="app_info_subtext">向下滑动以关闭应用信息。</string>
+    <string name="placeholder_string">加载中...</string>
     <!-- Used for preference height loading. -->
-    <string name="app_info_icon_pack">Icon pack</string>
-    <string name="app_info_icon_pack_none">None</string>
-    <string name="app_info_source">Source</string>
-    <string name="app_info_source_unknown">Unknown</string>
-    <string name="app_info_last_update">Last update</string>
-    <string name="app_info_version">Version</string>
-    <string name="app_info_more">More</string>
+    <string name="app_info_icon_pack">图标包</string>
+    <string name="app_info_icon_pack_none">无</string>
+    <string name="app_info_source">来源:</string>
+    <string name="app_info_source_unknown">未知</string>
+    <string name="app_info_last_update">最后更新时间</string>
+    <string name="app_info_version">版本</string>
+    <string name="app_info_more">更多</string>
     <!-- Preference default value -->
-    <string name="pref_value_default">Default</string>
+    <string name="pref_value_default">默认</string>
 </resources>
