@@ -16,63 +16,63 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General -->
-    <string name="settings_title">Settings</string>
+    <string name="settings_title">Nastavení</string>
     <!-- Categories -->
-    <string name="home_category_title">Home screen</string>
-    <string name="home_category_summary">Set Google now panel and more</string>
-    <string name="icons_category_title">Icons</string>
-    <string name="icons_category_summary">Set icon shape and more</string>
-    <string name="app_drawer_category_title">App drawer</string>
-    <string name="app_drawer_category_summary">Customize your app drawer</string>
-    <string name="misc_category_title">Miscellaneous</string>
-    <string name="misc_category_summary">Protected apps, gesture settings...</string>
+    <string name="home_category_title">Domovská obrazovka</string>
+    <string name="home_category_summary">Nastavení panelu Google Now a dalších funkcí</string>
+    <string name="icons_category_title">Ikony</string>
+    <string name="icons_category_summary">Nastavení tvaru ikon a dalších parametrů</string>
+    <string name="app_drawer_category_title">Seznam aplikací</string>
+    <string name="app_drawer_category_summary">Přizpůsobit seznam aplikací</string>
+    <string name="misc_category_title">Různé</string>
+    <string name="misc_category_summary">Chráněné aplikace, nastavení gest...</string>
     <!-- Show searchbar -->
-    <string name="show_searchbar_title">Show search bar</string>
-    <string name="show_searchbar_summary">Show the search bar on the home screen</string>
-    <string name="state_loading">Applying\u2026</string>
+    <string name="show_searchbar_title">Zobrazit vyhledávací lištu</string>
+    <string name="show_searchbar_summary">Zobrazit vyhledávací lištu na domovské obrazovce</string>
+    <string name="state_loading">Aktivuje se\u2026</string>
     <!-- Google Feed -->
-    <string name="settings_feed_title">Enable Google feed integration</string>
-    <string name="settings_feed_summary">To the left of the main home screen</string>
+    <string name="settings_feed_title">Povolit integraci kanálu Google</string>
+    <string name="settings_feed_summary">Nalevo od hlavní domovské obrazovky</string>
     <!-- Gestures -->
-    <string name="gestures_category">Gestures</string>
-    <string name="allow_swipe_down_clearall_title">Clear all on swipe down from recents view</string>
-    <string name="allow_swipe_down_clearall_desc">Swipe vertically downward in recents view to clear all apps</string>
-    <string name="pref_notifications_gesture_title">Notifications gesture</string>
-    <string name="pref_notifications_gesture_summary">Swipe vertically downward on the home screen to show the QS panel</string>
-    <string name="pref_dt_gesture_title">Double tap gesture</string>
-    <string name="pref_dt_gesture_summary">Double tap on empty space for power-off</string>
+    <string name="gestures_category">Gesta</string>
+    <string name="allow_swipe_down_clearall_title">Vymazat vše přejetím dolů v náhledu nedávných aplikací</string>
+    <string name="allow_swipe_down_clearall_desc">Přejetím prstem svisle dolů v zobrazení nedávných aplikací dojde k vymazání všech aplikací</string>
+    <string name="pref_notifications_gesture_title">Gesto zobrazení oznámení</string>
+    <string name="pref_notifications_gesture_summary">Přejetím prstu přes plochu svisle dolů zobrazit panel Rychlého nastavení a oznámení</string>
+    <string name="pref_dt_gesture_title">Gesto dvojím poklepáním</string>
+    <string name="pref_dt_gesture_summary">Dvojím poklepáním na prázdné místo vypnout zařízení</string>
     <!-- Trust apps -->
-    <string name="trust_apps_manager_name">Hidden &amp; Protected apps</string>
-    <string name="trust_apps_manager_name_dialog">Protected app</string>
-    <string name="trust_apps_auth_manager">Unlock to manage the hidden and protected apps</string>
-    <string name="trust_apps_auth_open_app">Authenticate to open %1$s</string>
-    <string name="trust_apps_loading">Loading\u2026</string>
-    <string name="trust_apps_no_lock_error">Please set up a secure lock screen to restrict app access</string>
-    <string name="trust_apps_help">Help</string>
-    <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
-    <string name="trust_apps_info_protected">Protected apps require authentication to be opened from the launcher</string>
+    <string name="trust_apps_manager_name">Skryté &amp; Chráněné aplikace</string>
+    <string name="trust_apps_manager_name_dialog">Chráněné aplikace</string>
+    <string name="trust_apps_auth_manager">Pro správu skrytých a zabezpečených aplikací nejdříve odemkněte obrazovku</string>
+    <string name="trust_apps_auth_open_app">Ověření pro otevření %1$s</string>
+    <string name="trust_apps_loading">Načítání\u2026</string>
+    <string name="trust_apps_no_lock_error">Pro omezení přístupu k aplikaci prosím nastavte zabezpečenou obrazovku uzamčení</string>
+    <string name="trust_apps_help">Nápověda</string>
+    <string name="trust_apps_info_hidden">Skryté aplikace a jejich widgety se nezobrazí v seznamu aplikací</string>
+    <string name="trust_apps_info_protected">Chráněné aplikace vyžadují pro spuštění ze spouštěče ověření</string>
     <!-- Edit workspace -->
-    <string name="settings_edit_allow_title">Allow edit</string>
-    <string name="settings_edit_allow_summary_on">Icons and widgets can be added, removed and moved on the homescreen</string>
-    <string name="settings_edit_allow_summary_off">Icons and widgets can\'t be added, removed and moved on the homescreen</string>
-    <string name="settings_edit_widgets_error">It\'s not possible to add widgets to the home screen</string>
+    <string name="settings_edit_allow_title">Povolit úpravy</string>
+    <string name="settings_edit_allow_summary_on">Ikony a widgety lze přidat, odebrat a přesunout na domovské obrazovce</string>
+    <string name="settings_edit_allow_summary_off">Ikony a widgety nelze přidat, odebrat a přesunout na domovské obrazovce</string>
+    <string name="settings_edit_widgets_error">Nelze přidat widgety na domovskou obrazovku</string>
     <!-- Hide labels -->
-    <string name="desktop_show_labels">Show icon labels on desktop</string>
-    <string name="drawer_show_labels">Show icon labels in drawer</string>
+    <string name="desktop_show_labels">Zobrazit popisky ikon na ploše</string>
+    <string name="drawer_show_labels">Zobrazit popisky ikon v menu aplikací</string>
     <!-- Two line labels -->
-    <string name="desktop_two_line_labels">Allow two line labels on desktop</string>
-    <string name="drawer_two_line_labels">Allow two line labels in drawer</string>
+    <string name="desktop_two_line_labels">Povolit dvouřádkový popisek na ploše</string>
+    <string name="drawer_two_line_labels">Povolit dvouřádkový popisek v seznamu aplikací</string>
     <!-- AppInfo -->
-    <string name="app_info_subtext">Swipe down to close app info.</string>
-    <string name="placeholder_string">Loading...</string>
+    <string name="app_info_subtext">Přejetím dolů zavřít informace o aplikaci.</string>
+    <string name="placeholder_string">Načítání...</string>
     <!-- Used for preference height loading. -->
-    <string name="app_info_icon_pack">Icon pack</string>
-    <string name="app_info_icon_pack_none">None</string>
-    <string name="app_info_source">Source</string>
-    <string name="app_info_source_unknown">Unknown</string>
-    <string name="app_info_last_update">Last update</string>
-    <string name="app_info_version">Version</string>
-    <string name="app_info_more">More</string>
+    <string name="app_info_icon_pack">Balíček ikon</string>
+    <string name="app_info_icon_pack_none">Žádný</string>
+    <string name="app_info_source">Zdroj</string>
+    <string name="app_info_source_unknown">Neznámý</string>
+    <string name="app_info_last_update">Poslední aktualizace</string>
+    <string name="app_info_version">Verze</string>
+    <string name="app_info_more">Více</string>
     <!-- Preference default value -->
-    <string name="pref_value_default">Default</string>
+    <string name="pref_value_default">Výchozí</string>
 </resources>
