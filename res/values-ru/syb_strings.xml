@@ -24,8 +24,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="state_loading">Применяем\u2026</string>
 
     <!-- Google Feed -->
-    <string name="settings_feed_title">Панель Google Feed</string>
-    <string name="settings_feed_summary">Отображать слева от главного экрана</string>
+    <string name="title_show_google_app">Показать приложение Google</string>
+    <string name="msg_minus_one_on_left">При свайпе вправо от главного экрана</string>
+    <string name="msg_minus_one_on_right">При свайпе влево от главного экрана</string>
 
     <!-- Gestures -->
     <string name="gestures_category">Жесты</string>
