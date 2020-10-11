@@ -504,7 +504,7 @@ public class Launcher extends StatefulActivity<LauncherState> implements Launche
     }
 
     protected LauncherOverlayManager getDefaultOverlay() {
-        return new LauncherOverlayManager() { };
+        return new OverlayCallbackImpl(this);
     }
 
     protected OnboardingPrefs createOnboardingPrefs(SharedPreferences sharedPrefs) {
