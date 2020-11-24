@@ -39,6 +39,8 @@ import android.text.TextUtils;
 import com.android.launcher3.settings.preference.IconPackPrefSetter;
 import com.android.launcher3.settings.preference.ReloadingListPreference;
 import com.android.launcher3.util.AppReloader;
+import androidx.preference.Preference.OnPreferenceChangeListener;
+import com.android.launcher3.settings.preferences.CustomSeekBarPreference;
 
 import com.android.launcher3.LauncherAppState;
 import com.android.launcher3.LauncherFiles;
@@ -50,12 +52,15 @@ import com.android.launcher3.uioverrides.plugins.PluginManagerWrapper;
 import com.android.launcher3.util.SecureSettingsObserver;
 
 import androidx.preference.Preference;
+import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceFragment.OnPreferenceStartFragmentCallback;
 import androidx.preference.PreferenceFragment.OnPreferenceStartScreenCallback;
 import androidx.preference.PreferenceGroup.PreferencePositionCallback;
 import androidx.preference.PreferenceScreen;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.android.launcher3.settings.preferences.CustomSeekBarPreference;
 
 /**
  * Settings activity for Launcher. Currently implements the following setting: Allow rotation
@@ -258,6 +263,7 @@ public class SettingsActivity extends Activity
                         });
                         return true;
                     });
+
                 case KEY_ICON_PACK:
                     ReloadingListPreference icons = (ReloadingListPreference) findPreference(KEY_ICON_PACK);
                     icons.setValue(IconDatabase.getGlobal(mContext));
@@ -268,7 +274,17 @@ public class SettingsActivity extends Activity
                         AppReloader.get(mContext).reload();
                         return true;
                     });
-            }
+
+                case Utilities.KEY_ALL_APPS_BACKGROUND_ALPHA:
+                    CustomSeekBarPreference allAppsAlpha =
+                          (CustomSeekBarPreference) findPreference(Utilities.KEY_ALL_APPS_BACKGROUND_ALPHA);
+                    allAppsAlpha.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+                          public boolean onPreferenceChange(Preference preference, Object newValue) {
+                              LauncherAppState.getInstanceNoCreate().setNeedsRestart();
+                              return true;
+                          }
+                      });
+             }
             return true;
         }
 

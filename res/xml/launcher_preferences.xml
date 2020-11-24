@@ -15,7 +15,8 @@
 -->
 
 <androidx.preference.PreferenceScreen
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.launcher3">
 
     <com.android.launcher3.settings.preference.ReloadingListPreference
         android:key="pref_icon_pack"
@@ -43,6 +44,16 @@
         android:summary="@string/auto_add_shortcuts_description"
         android:defaultValue="true"
         android:persistent="true" />
+
+    <com.android.launcher3.settings.preferences.CustomSeekBarPreference
+        android:key="pref_all_apps_scrim_alpha"
+        android:title="@string/all_apps_background_opacity_title"
+        android:summary="@string/all_apps_background_opacity_summary"
+        android:persistent="true"
+        android:max="100"
+        android:min="0"
+        settings:units="%"
+        android:defaultValue="100" />
 
     <SwitchPreference
         android:key="pref_show_searchbar"
