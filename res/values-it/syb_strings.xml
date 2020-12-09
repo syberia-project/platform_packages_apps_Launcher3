@@ -25,7 +25,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_notifications_gesture_summary">Scorri verticalmente verso il basso nella schermata iniziale per visualizzare il pannello delle impostazioni rapide</string>
     <string name="pref_dt_gesture_title">Gesto doppio tocco</string>
     <string name="pref_dt_gesture_summary">Tocca due volte sullo spazio vuoto per spegnere il dispositivo</string>
-    <string name="pref_grid_options_title">Enable grid options</string>
+    <string name="pref_grid_options_title">Abilita opzioni griglia</string>
     <!-- Trust apps -->
     <string name="trust_apps_manager_name">App protette &amp; nascoste</string>
     <string name="trust_apps_manager_name_dialog">App protette</string>
