@@ -36,4 +36,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="trust_apps_help">Hilfe</string>
     <string name="trust_apps_info_hidden">Versteckte Apps und ihre Widgets werden in der App-Übersicht nicht angezeigt</string>
     <string name="trust_apps_info_protected">Geschützte Apps erfordern eine Authentifizierung, um gestartet werden zu können</string>
+    <!-- Two line labels -->
+    <string name="two_line_labels">Allow two line labels on desktop</string>
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
 </resources>

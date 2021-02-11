@@ -36,4 +36,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="trust_apps_help">Ajuda</string>
     <string name="trust_apps_info_hidden">Os aplicativos ocultos e os seus widgets estão ocultos na lista</string>
     <string name="trust_apps_info_protected">Os aplicativos protegidos requerem autenticação para serem executados da tela inicial</string>
+    <!-- Two line labels -->
+    <string name="two_line_labels">Allow two line labels on desktop</string>
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
 </resources>

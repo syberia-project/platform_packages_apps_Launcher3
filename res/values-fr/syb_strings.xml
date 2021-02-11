@@ -36,4 +36,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="trust_apps_help">Aide</string>
     <string name="trust_apps_info_hidden">Les applications cachées et leurs widgets sont cachés du tiroir d\'applications</string>
     <string name="trust_apps_info_protected">Les applications protégées nécessitent une authentification pour être ouvertes depuis le lanceur</string>
+    <!-- Two line labels -->
+    <string name="two_line_labels">Allow two line labels on desktop</string>
+    <!-- AppInfo -->
+    <!-- Used for preference height loading. -->
+    <!-- Preference default value -->
 </resources>
