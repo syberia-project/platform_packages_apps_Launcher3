@@ -39,4 +39,10 @@
     <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nДолгое нажатие для установки</string>
     <string name="custom_seekbar_default_value_is_set">Установлено значение по умолчанию</string>
 
+    <!-- Icon size -->
+    <string name="icon_size_title">Размер иконок</string>
+
+    <!-- Font size -->
+    <string name="font_size_title">Размер шрифта</string>
+
 </resources>
