@@ -147,4 +147,5 @@
     <string name="work_apps_paused_content_description" msgid="7553586952985486433">"Рабочий профиль приостановлен. Рабочие приложения не могут отправлять уведомления, расходовать заряд батареи и получать доступ к данным о вашем местоположении."</string>
     <string name="work_switch_tip" msgid="808075064383839144">"Приостановить рабочие приложения и уведомления"</string>
     <string name="remote_action_failed" msgid="1383965239183576790">"Не удалось выполнить действие (<xliff:g id="WHAT">%1$s</xliff:g>)."</string>
+
 </resources>
