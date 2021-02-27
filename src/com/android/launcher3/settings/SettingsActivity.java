@@ -27,7 +27,6 @@ import com.android.launcher3.customization.IconDatabase;
 import android.app.Activity;
 import android.app.DialogFragment;
 import android.app.Fragment;
-import androidx.preference.DropDownPreference;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -49,6 +48,7 @@ import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.trust.TrustAppsActivity;
 import com.android.launcher3.uioverrides.plugins.PluginManagerWrapper;
 import com.android.launcher3.util.SecureSettingsObserver;
+import com.android.launcher3.settings.preferences.CustomSeekBarPreference;
 
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
@@ -113,7 +113,6 @@ public class SettingsActivity extends Activity
         } else if (Utilities.KEY_DT_GESTURE.equals(key)) {
                 LauncherAppState.getInstanceNoCreate().setNeedsRestart();
         } else  if (Utilities.KEY_NOTIFICATION_GESTURE.equals(key)) {
-                LauncherAppState.getInstanceNoCreate().setNeedsRestart();
         }
 
     }
@@ -272,16 +271,12 @@ public class SettingsActivity extends Activity
                     });
 
                 case Utilities.ICON_SIZE:
-                    final CustomSeekBarPreference iconSizes = (CustomSeekBarPreference) findPreference(Utilities.ICON_SIZE);
-                    iconSizes.setSummary(iconSizes.getEntry());
-                    iconSizes.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
-                    public boolean onPreferenceChange(Preference preference, Object newValue) {
-                    int index = iconSizes.findIndexOfValue((String) newValue);
-                    iconSizes.setSummary(iconSizes.getEntries()[index]);
-                    Utilities.restart(getActivity());
-                    return true;
-                    }
-                });
+                    CustomSeekBarPreference iconSizes =
+                            (CustomSeekBarPreference) findPreference(Utilities.ICON_SIZE);
+                    iconSizes.setOnPreferenceChangeListener((pref, val) -> {
+                        LauncherAppState.getInstanceNoCreate().setNeedsRestart();
+                        return true;
+                    });
             }
             return true;
         }
