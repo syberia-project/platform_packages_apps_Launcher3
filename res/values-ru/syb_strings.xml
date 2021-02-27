@@ -70,4 +70,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="icon_size_large">Большой</string>
     <string name="icon_size_extra_large">Очень большой</string>
 
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">по умолчанию</string>
+    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nДлительное нажатие для установки</string>
+    <string name="custom_seekbar_default_value_is_set">Значение по умолчанию установлено</string>
+
 </resources>
