@@ -27,7 +27,6 @@ import com.android.launcher3.customization.IconDatabase;
 import android.app.Activity;
 import android.app.DialogFragment;
 import android.app.Fragment;
-import androidx.preference.DropDownPreference;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -58,6 +57,8 @@ import androidx.preference.PreferenceFragment.OnPreferenceStartScreenCallback;
 import androidx.preference.PreferenceGroup.PreferencePositionCallback;
 import androidx.preference.PreferenceScreen;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.android.launcher3.settings.preferences.CustomSeekBarPreference;
 
 /**
  * Settings activity for Launcher. Currently implements the following setting: Allow rotation
@@ -272,13 +273,11 @@ public class SettingsActivity extends Activity
                     });
 
                 case Utilities.ICON_SIZE:
-                    final DropDownPreference iconSizes = (DropDownPreference) findPreference(Utilities.ICON_SIZE);
-                    iconSizes.setSummary(iconSizes.getEntry());
+                    final CustomSeekBarPreference iconSizes = (CustomSeekBarPreference)
+                            findPreference(Utilities.ICON_SIZE);
                     iconSizes.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
                         public boolean onPreferenceChange(Preference preference, Object newValue) {
-                            int index = iconSizes.findIndexOfValue((String) newValue);
-                            iconSizes.setSummary(iconSizes.getEntries()[index]);
-                            Utilities.restart(getActivity());
+                            LauncherAppState.getInstanceNoCreate().setNeedsRestart();
                             return true;
                         }
                     });

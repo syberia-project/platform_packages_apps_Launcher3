@@ -348,8 +348,6 @@
     <!-- content description for paused work apps list -->
     <string name="work_apps_paused_content_description">Work profile is paused. Work apps can\’t send you notifications, use your battery, or access your location</string>
 
-
-
     <!-- A tip shown pointing at work toggle -->
     <string name="work_switch_tip">Pause work apps and notifications</string>
 
