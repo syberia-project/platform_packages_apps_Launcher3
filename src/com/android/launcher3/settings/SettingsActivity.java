@@ -27,7 +27,6 @@ import com.android.launcher3.customization.IconDatabase;
 import android.app.Activity;
 import android.app.DialogFragment;
 import android.app.Fragment;
-import androidx.preference.DropDownPreference;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -49,6 +48,7 @@ import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.trust.TrustAppsActivity;
 import com.android.launcher3.uioverrides.plugins.PluginManagerWrapper;
 import com.android.launcher3.util.SecureSettingsObserver;
+import com.android.launcher3.settings.preferences.CustomSeekBarPreference;
 
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
