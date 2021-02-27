@@ -17,7 +17,7 @@
 */
 -->
 
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
     <string name="title_show_google_app">Свайп для доступа к приложению Google</string>
@@ -32,5 +32,11 @@
     <!-- Hide labels -->
     <string name="desktop_show_labels">Показывать подписи иконок на рабочем столе</string>
     <string name="drawer_show_labels">Показывать подписи иконок в списке приложений</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">по умолчанию</string>
+    <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nДолгое нажатие для установки</string>
+    <string name="custom_seekbar_default_value_is_set">Установлено значение по умолчанию</string>
 
 </resources>
