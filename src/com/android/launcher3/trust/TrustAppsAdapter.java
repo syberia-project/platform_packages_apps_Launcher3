@@ -83,6 +83,27 @@ class TrustAppsAdapter extends RecyclerView.Adapter<TrustAppsAdapter.ViewHolder>
             mHiddenView = itemView.findViewById(R.id.item_hidden_app_switch);
         }
 
+        private void updateHiddeneComponent(TrustComponent component) {
+
+            mHiddenView.setImageResource(component.isHidden() ?
+                    R.drawable.avd_hidden_lock : R.drawable.avd_hidden_unlock);
+            AnimatedVectorDrawable avd = (AnimatedVectorDrawable) mHiddenView.getDrawable();
+
+            int position = getAdapterPosition();
+            if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
+                avd.registerAnimationCallback(new Animatable2.AnimationCallback() {
+                    @Override
+                    public void onAnimationEnd(Drawable drawable) {
+                        updateHiddenList(position, component);
+                    }
+                });
+                avd.start();
+            } else {
+                avd.start();
+                updateHiddenList(position, component);
+            }
+        }
+
         void bind(TrustComponent component) {
             mIconView.setImageDrawable(component.getIcon());
             mLabelView.setText(component.getLabel());
@@ -92,24 +113,12 @@ class TrustAppsAdapter extends RecyclerView.Adapter<TrustAppsAdapter.ViewHolder>
 
             mHiddenView.setOnClickListener(v -> {
                 component.invertVisibility();
+                updateHiddeneComponent(component);
+            });
 
-                mHiddenView.setImageResource(component.isHidden() ?
-                        R.drawable.avd_hidden_lock : R.drawable.avd_hidden_unlock);
-                AnimatedVectorDrawable avd = (AnimatedVectorDrawable) mHiddenView.getDrawable();
-
-                int position = getAdapterPosition();
-                if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
-                    avd.registerAnimationCallback(new Animatable2.AnimationCallback() {
-                        @Override
-                        public void onAnimationEnd(Drawable drawable) {
-                            updateHiddenList(position, component);
-                        }
-                    });
-                    avd.start();
-                } else {
-                    avd.start();
-                    updateHiddenList(position, component);
-                }
+            mLabelView.setOnClickListener(v -> {
+                component.invertVisibility();
+                updateHiddeneComponent(component);
             });
         }
 
