@@ -27,15 +27,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_dt_gesture_summary">双击空白处以关闭电源</string>
     <string name="pref_grid_options_title">Enable grid options</string>
     <!-- Trust apps -->
-    <string name="trust_apps_manager_name">隐藏和保护应用</string>
-    <string name="trust_apps_manager_name_dialog">受保护的应用</string>
-    <string name="trust_apps_auth_manager">解锁以管理隐藏和受保护的应用</string>
-    <string name="trust_apps_auth_open_app">认证以打开 %1$s</string>
+    <string name="trust_apps_manager_name">Hidden apps</string>
+    <string name="trust_apps_auth_manager">Unlock to manage the hidden apps</string>
     <string name="trust_apps_loading">加载中\u2026</string>
     <string name="trust_apps_no_lock_error">请设置一个安全锁屏密码以限制应用访问</string>
     <string name="trust_apps_help">帮助</string>
     <string name="trust_apps_info_hidden">从抽屉中隐藏应用和其他小部件</string>
-    <string name="trust_apps_info_protected">需要经过认证才能从启动器打开受保护的应用</string>
     <!-- Two line labels -->
     <string name="two_line_labels">Allow two line labels on desktop</string>
     <!-- AppInfo -->

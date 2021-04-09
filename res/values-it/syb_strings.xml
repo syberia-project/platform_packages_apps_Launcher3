@@ -27,17 +27,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_dt_gesture_summary">Tocca due volte sullo spazio vuoto per spegnere il dispositivo</string>
     <string name="pref_grid_options_title">Abilita opzioni griglia</string>
     <!-- Trust apps -->
-    <string name="trust_apps_manager_name">App protette &amp; nascoste</string>
-    <string name="trust_apps_manager_name_dialog">App protette</string>
-    <string name="trust_apps_auth_manager">Sblocca per gestire le app protette e nascoste</string>
-    <string name="trust_apps_auth_open_app">Autenticati per aprire %1$s</string>
+    <string name="trust_apps_manager_name">Hidden apps</string>
+    <string name="trust_apps_auth_manager">Unlock to manage the hidden apps</string>
     <string name="trust_apps_loading">Caricamento\u2026</string>
     <string name="trust_apps_no_lock_error">Imposta una schermata di blocco sicura per limitare l\'accesso alle app</string>
     <string name="trust_apps_help">Aiuto</string>
     <string name="trust_apps_info_hidden">Le app nascoste e i loro widget sono nascosti dal menù</string>
-    <string name="trust_apps_info_protected">Le applicazioni protette richiedono l\'autenticazione per essere aperte dal launcher</string>
     <!-- Two line labels -->
-    <string name="two_line_labels">Allow two line labels on desktop</string>
+    <string name="two_line_labels">Consenti etichette su due righe sul desktop</string>
     <!-- AppInfo -->
     <string name="app_info_subtext">Swipe down to close app info.</string>
     <string name="placeholder_string">Loading...</string>
