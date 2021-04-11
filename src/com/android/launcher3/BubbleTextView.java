@@ -17,6 +17,8 @@
 package com.android.launcher3;
 
 import static com.android.launcher3.InvariantDeviceProfile.KEY_TWO_LINE_LABELS;
+import static com.android.launcher3.InvariantDeviceProfile.KEY_SHOW_DESKTOP_LABELS;
+import static com.android.launcher3.InvariantDeviceProfile.KEY_SHOW_DRAWER_LABELS;
 import static com.android.launcher3.icons.GraphicsUtils.setColorAlphaBound;
 
 import android.animation.Animator;
@@ -147,6 +149,7 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver, 
     private boolean mDisableRelayout = false;
 
     private boolean mTwoLineLabel;
+    private boolean mShouldShowLabel;
 
     private IconLoadRequest mIconLoadRequest;
 
@@ -177,11 +180,13 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver, 
             setCompoundDrawablePadding(grid.iconDrawablePaddingPx);
             defaultIconSize = grid.iconSizePx;
             mTwoLineLabel = prefs.getBoolean(KEY_TWO_LINE_LABELS, true);
+            mShouldShowLabel = prefs.getBoolean(KEY_SHOW_DESKTOP_LABELS, true);
         } else if (mDisplay == DISPLAY_ALL_APPS) {
             setTextSize(TypedValue.COMPLEX_UNIT_PX, grid.allAppsIconTextSizePx);
             setCompoundDrawablePadding(grid.allAppsIconDrawablePaddingPx);
             defaultIconSize = grid.allAppsIconSizePx;
             mTwoLineLabel = false;
+            mShouldShowLabel = prefs.getBoolean(KEY_SHOW_DRAWER_LABELS, true);
         } else if (mDisplay == DISPLAY_FOLDER) {
             setTextSize(TypedValue.COMPLEX_UNIT_PX, grid.folderChildTextSizePx);
             setMaxLines(2);
@@ -192,6 +197,7 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver, 
             // widget_selection or shortcut_popup
             defaultIconSize = grid.iconSizePx;
             mTwoLineLabel = false;
+            mShouldShowLabel = prefs.getBoolean(KEY_SHOW_DESKTOP_LABELS, true);
         }
 
         mCenterVertically = a.getBoolean(R.styleable.BubbleTextView_centerVertically, false);
@@ -303,7 +309,10 @@ public class BubbleTextView extends TextView implements ItemInfoUpdateReceiver, 
         mDotParams.color = IconPalette.getMutedColor(info.bitmap.color, 0.54f);
 
         setIcon(iconDrawable);
-        setText(info.title);
+        
+        if (mShouldShowLabel) {
+            setText(info.title);
+        }
 
         if (mTwoLineLabel) {
             setMaxLines(2);

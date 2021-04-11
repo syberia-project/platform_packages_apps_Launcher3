@@ -81,6 +81,9 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
     public static final int CHANGE_FLAG_ICON_PARAMS = 1 << 1;
 
     public static final String KEY_TWO_LINE_LABELS = "pref_two_line_labels";
+    public static final String KEY_SHOW_DESKTOP_LABELS = "pref_desktop_show_labels";
+    public static final String KEY_SHOW_DRAWER_LABELS = "pref_drawer_show_labels";
+
     public static final String KEY_ICON_PATH_REF = "pref_icon_shape_path";
 
     // Constants that affects the interpolation curve between statically defined device profile
@@ -180,7 +183,7 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
         prefs.registerOnSharedPreferenceChangeListener(this);
 
         if (!newGridName.equals(gridName)) {
-            Utilities.getPrefs(context).edit().putString(KEY_IDP_GRID_NAME, newGridName).apply();
+            prefs.edit().putString(KEY_IDP_GRID_NAME, newGridName).apply();
         }
         Utilities.getPrefs(context).edit()
                 .putInt(KEY_MIGRATION_SRC_HOTSEAT_COUNT, numHotseatIcons)
@@ -235,7 +238,7 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
 
     @Override
     public void onSharedPreferenceChanged(SharedPreferences prefs, String key) {
-        if (KEY_TWO_LINE_LABELS.equals(key)) {
+        if (KEY_TWO_LINE_LABELS.equals(key) || KEY_SHOW_DESKTOP_LABELS.equals(key) || KEY_SHOW_DRAWER_LABELS.equals(key)) {
             apply(mContext, CHANGE_FLAG_ICON_PARAMS);
         }
     }
