@@ -16,6 +16,24 @@
       "revId": "60fc2eeff2f972a5f114a65f4b6f76144394eba5",
       "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0c3a8843_67abb797",
+        "filename": "src/com/android/launcher3/InvariantDeviceProfile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 1000028
+      },
+      "writtenOn": "2021-04-13T12:37:42Z",
+      "side": 1,
+      "message": "Done. Terrible mistake was there.",
+      "parentUuid": "1a2b84e3_d393e723",
+      "revId": "60fc2eeff2f972a5f114a65f4b6f76144394eba5",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8",
+      "unresolved": false
     }
   ]
 }
