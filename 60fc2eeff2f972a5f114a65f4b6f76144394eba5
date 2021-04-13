@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a2b84e3_d393e723",
+        "filename": "src/com/android/launcher3/InvariantDeviceProfile.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 241,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-04-13T10:30:00Z",
+      "side": 1,
+      "message": "Fix if statement here. Remove extra closing bracket after two_line_labels",
+      "revId": "60fc2eeff2f972a5f114a65f4b6f76144394eba5",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8",
+      "unresolved": true
+    }
+  ]
+}
