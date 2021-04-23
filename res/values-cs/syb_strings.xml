@@ -27,8 +27,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_dt_gesture_summary">Dvojím poklepáním na prázdné místo vypnout zařízení</string>
     <string name="pref_grid_options_title">Zapnout možnosti mřížky</string>
     <!-- Trust apps -->
-    <string name="trust_apps_manager_name">Hidden apps</string>
-    <string name="trust_apps_auth_manager">Unlock to manage the hidden apps</string>
+    <string name="trust_apps_manager_name">Skryté aplikace</string>
+    <string name="trust_apps_auth_manager">Odemknutím spravovat skryté aplikace</string>
     <string name="trust_apps_loading">Načítání\u2026</string>
     <string name="trust_apps_no_lock_error">Pro omezení přístupu k aplikaci prosím nastavte zabezpečenou obrazovku uzamčení</string>
     <string name="trust_apps_help">Nápověda</string>
