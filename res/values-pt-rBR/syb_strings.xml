@@ -27,14 +27,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_dt_gesture_summary">Toque duplo em um espaço vazio para desligar</string>
     <string name="pref_grid_options_title">Ativar opções de grade</string>
     <!-- Trust apps -->
-    <string name="trust_apps_manager_name">Hidden apps</string>
-    <string name="trust_apps_auth_manager">Unlock to manage the hidden apps</string>
+    <string name="trust_apps_manager_name">Aplicativos ocultos</string>
+    <string name="trust_apps_auth_manager">Desbloquear para gerenciar aplicativos ocultos</string>
     <string name="trust_apps_loading">Carregando\u2026</string>
     <string name="trust_apps_no_lock_error">Configure uma tela de bloqueio para restringir o acesso aos aplicativos</string>
     <string name="trust_apps_help">Ajuda</string>
     <string name="trust_apps_info_hidden">Os aplicativos ocultos e os seus widgets estão ocultos na lista</string>
     <!-- Two line labels -->
-    <string name="two_line_labels">Allow two line labels on desktop</string>
+    <string name="two_line_labels">Mostrar rótulos com duas linhas na tela inicial</string>
     <!-- AppInfo -->
     <string name="app_info_subtext">Swipe down to close app info.</string>
     <string name="placeholder_string">Loading...</string>
