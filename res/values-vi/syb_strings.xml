@@ -27,8 +27,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_dt_gesture_summary">Chạm hai lần vào vùng trống để tắt màn hình</string>
     <string name="pref_grid_options_title">Bật tùy chọn lưới</string>
     <!-- Trust apps -->
-    <string name="trust_apps_manager_name">Hidden apps</string>
-    <string name="trust_apps_auth_manager">Unlock to manage the hidden apps</string>
+    <string name="trust_apps_manager_name">Ẩn ứng dụng</string>
+    <string name="trust_apps_auth_manager">Mở khóa để quản lý các ứng dụng ẩn</string>
     <string name="trust_apps_loading">Đang tải\u2026</string>
     <string name="trust_apps_no_lock_error">Vui lòng thiết lập màn hình khóa an toàn để hạn chế quyền truy cập ứng dụng</string>
     <string name="trust_apps_help">Trợ giúp</string>
