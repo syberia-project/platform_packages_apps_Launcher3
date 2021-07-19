@@ -128,8 +128,6 @@ public final class Utilities {
     public static final boolean ATLEAST_OREO =
             Build.VERSION.SDK_INT >= Build.VERSION_CODES.O;
 
-    public static final String ICON_SIZE = "pref_custom_icon_size";
-
     /**
      * Set on a motion event dispatched from the nav bar. See {@link MotionEvent#setEdgeFlags(int)}.
      */
@@ -725,11 +723,6 @@ public final class Utilities {
     public static boolean isDoubleTapGestureEnabled(Context context) {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getBoolean(KEY_DT_GESTURE, true);
-    }
-
-    public static int getIconSizeModifier(Context context) {
-        SharedPreferences prefs = getPrefs(context.getApplicationContext());
-        return prefs.getInt(ICON_SIZE, 100);
     }
 
     public static void restart(final Context context) {

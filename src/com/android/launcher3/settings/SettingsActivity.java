@@ -48,10 +48,8 @@ import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.trust.TrustAppsActivity;
 import com.android.launcher3.uioverrides.plugins.PluginManagerWrapper;
 import com.android.launcher3.util.SecureSettingsObserver;
-import com.android.launcher3.settings.preferences.CustomSeekBarPreference;
 
 import androidx.preference.Preference;
-import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceFragment.OnPreferenceStartFragmentCallback;
 import androidx.preference.PreferenceFragment.OnPreferenceStartScreenCallback;
@@ -268,14 +266,6 @@ public class SettingsActivity extends Activity
                         IconDatabase.clearAll(mContext);
                         IconDatabase.setGlobal(mContext, (String) val);
                         AppReloader.get(mContext).reload();
-                        return true;
-                    });
-
-                case Utilities.ICON_SIZE:
-                    CustomSeekBarPreference iconSizes =
-                            (CustomSeekBarPreference) findPreference(Utilities.ICON_SIZE);
-                    iconSizes.setOnPreferenceChangeListener((pref, val) -> {
-                        LauncherAppState.getInstanceNoCreate().setNeedsRestart();
                         return true;
                     });
             }

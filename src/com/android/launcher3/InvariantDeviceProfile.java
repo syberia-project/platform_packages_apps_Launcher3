@@ -276,12 +276,11 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
 
         mExtraAttrs = closestProfile.extraAttrs;
 
-        float iconSizeModifier = (float) Utilities.getIconSizeModifier(context) / 100F;
-        iconSize = displayOption.iconSize * iconSizeModifier;
+        iconSize = displayOption.iconSize;
         iconShapePath = getIconShapePath(context);
-        landscapeIconSize = displayOption.landscapeIconSize * iconSizeModifier;
+        landscapeIconSize = displayOption.landscapeIconSize;
         iconBitmapSize = ResourceUtils.pxFromDp(iconSize, displayInfo.metrics);
-        iconTextSize = displayOption.iconTextSize * iconSizeModifier;
+        iconTextSize = displayOption.iconTextSize;
         fillResIconDpi = getLauncherIconDensity(iconBitmapSize);
 
         if (Utilities.isGridOptionsEnabled(context)) {
