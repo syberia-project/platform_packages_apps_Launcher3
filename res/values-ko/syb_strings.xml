@@ -16,25 +16,25 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Show searchbar -->
-    <string name="show_searchbar_title">Show search bar</string>
-    <string name="show_searchbar_summary">Show the search bar on the home screen</string>
-    <string name="state_loading">Applying\u2026</string>
+    <string name="show_searchbar_title">검색바 표시</string>
+    <string name="show_searchbar_summary">홈 화면에 검색 바 표시</string>
+    <string name="state_loading">적용 중\u2026</string>
     <!-- Gestures -->
-    <string name="gestures_category">Gestures</string>
-    <string name="pref_notifications_gesture_title">Notifications gesture</string>
-    <string name="pref_notifications_gesture_summary">Swipe vertically downward on the home screen to show the QS panel</string>
-    <string name="pref_dt_gesture_title">Double tap gesture</string>
-    <string name="pref_dt_gesture_summary">Double tap on empty space for power-off</string>
-    <string name="pref_grid_options_title">Enable grid options</string>
+    <string name="gestures_category">제스처</string>
+    <string name="pref_notifications_gesture_title">알림 제스쳐</string>
+    <string name="pref_notifications_gesture_summary">홈 화면을 아래로 밀어서 빠른 설정 표시</string>
+    <string name="pref_dt_gesture_title">두 번 누르기 제스처</string>
+    <string name="pref_dt_gesture_summary">빈 공간을 두 번 탭하여 화면 끄기</string>
+    <string name="pref_grid_options_title">격자 옵션 켜기</string>
     <!-- Trust apps -->
-    <string name="trust_apps_manager_name">Hidden apps</string>
-    <string name="trust_apps_auth_manager">Unlock to manage the hidden apps</string>
-    <string name="trust_apps_loading">Loading\u2026</string>
-    <string name="trust_apps_no_lock_error">Please set up a secure lock screen to restrict app access</string>
-    <string name="trust_apps_help">Help</string>
-    <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
+    <string name="trust_apps_manager_name">숨겨진 앱</string>
+    <string name="trust_apps_auth_manager">잠금해제하여 숨겨진 앱 관리하기</string>
+    <string name="trust_apps_loading">불러오는 중\u2026</string>
+    <string name="trust_apps_no_lock_error">앱 접근을 제한하기 위해 잠금 화면 보안을 설정하세요</string>
+    <string name="trust_apps_help">도움말</string>
+    <string name="trust_apps_info_hidden">숨겨진 앱과 해당 앱의 위젯은 앱 서랍에서 숨겨집니다.</string>
     <!-- Two line labels -->
-    <string name="two_line_labels">Allow two line labels on desktop</string>
+    <string name="two_line_labels">홈 화면에 앱 이름 두 줄 표시 허용</string>
     <!-- AppInfo -->
     <string name="app_info_subtext">Swipe down to close app info.</string>
     <string name="placeholder_string">Loading...</string>
@@ -48,11 +48,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_info_more">More</string>
     <!-- Preference default value -->
     <string name="pref_value_default">Default</string>
+    <!-- Folder titles -->
     <!-- Icon size -->
-    <string name="icon_size_title">Icon size</string>
+    <string name="icon_size_title">아이콘 크기</string>
+    <!-- Font size -->
+    <string name="font_size_title">Font size</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">by default</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong tap to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <string name="custom_seekbar_value">값 조정: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">기본값</string>
+    <string name="custom_seekbar_default_value_to_set">기본값: <xliff:g id="v">%s</xliff:g>\n길게 눌러서 설정</string>
+    <string name="custom_seekbar_default_value_is_set">기본값으로 설정 됨</string>
 </resources>

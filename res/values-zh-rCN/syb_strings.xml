@@ -48,8 +48,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="app_info_more">More</string>
     <!-- Preference default value -->
     <string name="pref_value_default">Default</string>
+    <!-- Folder titles -->
     <!-- Icon size -->
     <string name="icon_size_title">Icon size</string>
+    <!-- Font size -->
+    <string name="font_size_title">Font size</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">by default</string>
