@@ -52,7 +52,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <!-- Icon size -->
     <string name="icon_size_title">아이콘 크기</string>
     <!-- Font size -->
-    <string name="font_size_title">Font size</string>
+    <string name="font_size_title">글자 크기</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">값 조정: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">기본값</string>
