@@ -94,4 +94,7 @@
     <string name="allow_wallpaper_scrolling">Wallpaper scrolling</string>
     <string name="allow_wallpaper_scrolling_desc">Wallpaper scrolling effect for multiple screens</string>
 
+    <!-- AiAi suggestions -->
+    <string name="pref_suggestions_title">Suggestions</string>
+    <string name="pref_suggestions_summary">For all apps and Home screen</string>
 </resources>
