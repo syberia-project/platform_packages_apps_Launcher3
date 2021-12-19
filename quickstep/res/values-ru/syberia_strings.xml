@@ -20,7 +20,7 @@
 <resources>
 
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
-    <string name="title_show_google_app">Показывать приложение Google</string>
+    <string name="title_show_google_app">Свайп для доступа к приложению Google</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_left">Когда вы делаете свайп слева направо на главном рабочем столе</string>
     <string name="msg_minus_one_on_right">Когда вы делаете свайп справа налево на главном рабочем столе</string>
