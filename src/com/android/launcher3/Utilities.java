@@ -754,6 +754,15 @@ public final class Utilities {
         return !prefs.getBoolean(InvariantDeviceProfile.KEY_WORKSPACE_LOCK, false);
     }
 
+    public static boolean showQSB(Context context) {
+        return isGSAEnabled(context) && isQSBEnabled(context);
+    }
+
+    private static boolean isQSBEnabled(Context context) {
+        SharedPreferences prefs = LauncherPrefs.getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(InvariantDeviceProfile.KEY_DOCK_SEARCH, true);
+    }
+
     public static void restart(final Context context) {
         new LooperExecutor(MODEL_EXECUTOR.getLooper()).execute(() -> {
             try {
