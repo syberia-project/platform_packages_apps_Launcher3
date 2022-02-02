@@ -911,6 +911,15 @@ public final class Utilities {
         }
     }
 
+    public static boolean showQSB(Context context) {
+        return isGSAEnabled(context) && isQSBEnabled(context);
+    }
+
+    private static boolean isQSBEnabled(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(InvariantDeviceProfile.KEY_DOCK_SEARCH, true);
+    }
+
     public static void restart(final Context context) {
         new LooperExecutor(MODEL_EXECUTOR.getLooper()).execute(() -> {
             try {

@@ -66,5 +66,7 @@
     <!-- Hotseat searchbar -->
     <string name="label_search">Поиск</string>
     <string name="label_voice_search">Голосовой поиск</string>
+    <string name="dock_search_title">Панель поиска Google</string>
+    <string name="dock_search_summary">Показать панель поиска в нижнем док-баре</string>
 
 </resources>
