@@ -63,4 +63,8 @@
     <!-- Preference default value -->
     <string name="pref_value_default">По умолчанию</string>
 
+    <!-- Hotseat searchbar -->
+    <string name="label_search">Поиск</string>
+    <string name="label_voice_search">Голосовой поиск</string>
+
 </resources>
