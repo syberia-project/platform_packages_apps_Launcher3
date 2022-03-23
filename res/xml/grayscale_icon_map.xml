@@ -129,7 +129,8 @@
     <icon drawable="@drawable/lazada" package="com.lazada.android" />
     <icon drawable="@drawable/lens" package="com.google.ar.lens" />
     <icon drawable="@drawable/lewdfi" package="eu.ctwoon.lewdfi" />
-    <icon drawable="@drawable/linkedin" package="com.linkedin.android" />b <icon drawable="@drawable/lsposed" package="org.lsposed.manager" />
+    <icon drawable="@drawable/linkedin" package="com.linkedin.android" />
+    <icon drawable="@drawable/lsposed" package="org.lsposed.manager" />
     <icon drawable="@drawable/magisk" package="com.topjohnwu.magisk" />
     <icon drawable="@drawable/maps" package="com.google.android.apps.maps" />
     <icon drawable="@drawable/matlog" package="com.pluscubed.matlog" />
@@ -852,4 +853,16 @@
     <icon drawable="@drawable/parsec" package="tv.parsec.client" />
     <icon drawable="@drawable/pedulilindungi" package="com.telkom.tracencare" />
     <icon drawable="@drawable/privacy_dashboard" package="rk.android.app.privacydashboard" />
+    <icon drawable="@drawable/themed_icon_bilibili" package="tv.danmaku.bili" />
+    <icon drawable="@drawable/themed_icon_alipay" package="com.eg.android.AlipayGphone" />
+    <icon drawable="@drawable/themed_icon_jingdong" package="com.jingdong.app.mall" />
+    <icon drawable="@drawable/themed_icon_coolapk" package="com.coolapk.market" />
+    <icon drawable="@drawable/themed_icon_zhihu" package="com.zhihu.android" />
+    <icon drawable="@drawable/themed_icon_ic_com_bilibili_comic" package="com.bilibili.comic" />
+    <icon drawable="@drawable/themed_icon_island" package="com.oasisfeng.island" />
+    <icon drawable="@drawable/themed_icon_geometricweather" package="wangdaye.com.geometricweather" />
+    <icon drawable="@drawable/themed_icon_meituan" package="com.sankuai.meituan" />
+    <icon drawable="@drawable/themed_icon_tieba" package="com.baidu.tieba" />
+    <icon drawable="@drawable/themed_icon_3dmark" package="com.futuremark.dmandroid.application" />
+    <icon drawable="@drawable/themed_icon_8ball_pool" package="com.miniclip.eightballpool" />
 </icons>
