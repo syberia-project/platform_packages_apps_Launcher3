@@ -61,6 +61,7 @@
     <icon drawable="@drawable/camera" package="com.transsion.camera" />
     <icon drawable="@drawable/camera" package="org.codeaurora.qcamera3" />
     <icon drawable="@drawable/camera" package="org.lineageos.snap" />
+    <icon drawable="@drawable/camera" package="app.grapheneos.camera" />
     <icon drawable="@drawable/canvas" package="com.canva.editor" />
     <icon drawable="@drawable/chat" package="com.google.android.apps.dynamite" />
     <icon drawable="@drawable/chrome_beta" package="com.chrome.beta" />
@@ -870,4 +871,5 @@
     <icon drawable="@drawable/themed_icon_classroom" package="com.google.android.apps.classroom" />
     <icon drawable="@drawable/themed_icon_earth" package="com.google.earth" />
     <icon drawable="@drawable/themed_icon_voice" package="com.google.android.apps.googlevoice" />
+    <icon drawable="@drawable/themed_icon_miuicamera" package="com.android.camera" />
 </icons>
