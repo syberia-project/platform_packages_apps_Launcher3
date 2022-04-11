@@ -58,7 +58,7 @@ import com.android.launcher3.util.Themes;
 import com.android.launcher3.util.WindowBounds;
 import com.android.quickstep.SystemUiProxy;
 
-import android.providers.Settings;
+import android.provider.Settings;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -300,6 +300,7 @@ public class InvariantDeviceProfile implements OnSharedPreferenceChangeListener 
             case KEY_SHOW_DRAWER_LABELS:
             case KEY_ICON_SIZE:
             case KEY_FONT_SIZE:
+            case DeviceProfile.KEY_PHONE_OVERVIEW_GRID:
                 onConfigChanged(mContext);
                 break;
             case DeviceProfile.KEY_PHONE_TASKBAR:
