@@ -93,7 +93,6 @@
         launcher:numHotseatIcons="4"
         launcher:numExtendedHotseatIcons="6"
         launcher:dbFile="launcher_4_by_5.db"
-        launcher:inlineNavButtonsEndSpacing="@dimen/taskbar_button_margin_4_5"
         launcher:defaultLayoutId="@xml/default_workspace_4x5"
         launcher:deviceCategory="phone|multi_display" >
 
