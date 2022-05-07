@@ -77,4 +77,7 @@
     <string name="pref_allow_phone_overview_grid">Отображать сеткой недавние приложения</string>
     <string name="pref_allow_phone_overview_grid_desc">Отображается больше недавних приложений на экране</string>
 
+    <!-- Show top shadow -->
+    <string name="show_top_shadow">Показывать тень строки состояния</string>
+
 </resources>
