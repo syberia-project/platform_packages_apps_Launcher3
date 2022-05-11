@@ -865,4 +865,9 @@
     <icon drawable="@drawable/themed_icon_tieba" package="com.baidu.tieba" />
     <icon drawable="@drawable/themed_icon_3dmark" package="com.futuremark.dmandroid.application" />
     <icon drawable="@drawable/themed_icon_8ball_pool" package="com.miniclip.eightballpool" />
+    <icon drawable="@drawable/themed_icon_admin" package="com.google.android.apps.enterprise.cpanel" />
+    <icon drawable="@drawable/themed_icon_nest" package="com.nest.android" />
+    <icon drawable="@drawable/themed_icon_classroom" package="com.google.android.apps.classroom" />
+    <icon drawable="@drawable/themed_icon_earth" package="com.google.earth" />
+    <icon drawable="@drawable/themed_icon_voice" package="com.google.android.apps.googlevoice" />
 </icons>
