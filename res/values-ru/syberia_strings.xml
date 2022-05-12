@@ -20,10 +20,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
-    <string name="title_show_google_app">Свайп для доступа к приложению Google</string>
+    <string name="title_show_google_app">Запуск приложения Google</string>
     <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
-    <string name="msg_minus_one_on_left">Когда вы делаете свайп слева направо на главном рабочем столе</string>
-    <string name="msg_minus_one_on_right">Когда вы делаете свайп справа налево на главном рабочем столе</string>
+    <string name="msg_minus_one_on_left">Чтобы открыть приложение Google, проведите по главному экрану влево</string>
+    <string name="msg_minus_one_on_right">Чтобы открыть приложение Google, проведите по главному экрану вправо</string>
 
     <!-- Gestures -->
     <string name="pref_dt_gesture_title">Двойное нажатие</string>
@@ -68,5 +68,13 @@
     <string name="label_voice_search">Голосовой поиск</string>
     <string name="dock_search_title">Панель поиска Google</string>
     <string name="dock_search_summary">Показать панель поиска в нижнем док-баре</string>
+
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar">Использовать панель задач</string>
+    <string name="pref_allow_phone_taskbar_desc">Для запуска и переключения приложений где угодно</string>
+
+    <!-- Recent Grid -->
+    <string name="pref_allow_phone_overview_grid">Отображать сеткой недавиние приложения</string>
+    <string name="pref_allow_phone_overview_grid_desc">Отображается больше недавних приложений на экране</string>
 
 </resources>
