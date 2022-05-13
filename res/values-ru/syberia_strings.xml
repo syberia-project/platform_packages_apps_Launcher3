@@ -74,7 +74,7 @@
     <string name="pref_allow_phone_taskbar_desc">Для запуска и переключения приложений где угодно</string>
 
     <!-- Recent Grid -->
-    <string name="pref_allow_phone_overview_grid">Отображать сеткой недавиние приложения</string>
+    <string name="pref_allow_phone_overview_grid">Отображать сеткой недавние приложения</string>
     <string name="pref_allow_phone_overview_grid_desc">Отображается больше недавних приложений на экране</string>
 
 </resources>
