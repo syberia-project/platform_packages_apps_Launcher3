@@ -80,4 +80,8 @@
     <!-- Show top shadow -->
     <string name="show_top_shadow">Показывать тень строки состояния</string>
 
+    <!-- Dark Status Bar -->
+    <string name="perf_dark_status_bar_title">Темная строка состояния</string>
+    <string name="perf_dark_status_bar_summary">Использовать темную строку состояния на рабочем столе</string>
+
 </resources>
