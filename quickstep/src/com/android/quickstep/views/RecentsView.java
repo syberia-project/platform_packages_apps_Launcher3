@@ -3967,7 +3967,7 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
                 mActivity.getDeviceProfile(),
                 mSplitSelectStateController.getActiveSplitStagePosition(), firstTaskEndingBounds,
                 secondTaskEndingBounds);
-
+        if (mFirstFloatingTaskView == null) return;
         mFirstFloatingTaskView.getBoundsOnScreen(firstTaskStartingBounds);
         mFirstFloatingTaskView.addAnimation(pendingAnimation,
                 new RectF(firstTaskStartingBounds), firstTaskEndingBounds, mFirstFloatingTaskView,
@@ -4041,8 +4041,10 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
                 mSplitSelectStateController.getActiveSplitStagePosition(), mTempRect);
         mTempRectF.set(mTempRect);
         // TODO(194414938) set correct corner radius
-        mFirstFloatingTaskView.updateOrientationHandler(mOrientationHandler);
-        mFirstFloatingTaskView.update(mTempRectF, /*progress=*/1f, /*windowRadius=*/0f);
+        if (mFirstFloatingTaskView != null) {
+            mFirstFloatingTaskView.updateOrientationHandler(mOrientationHandler);
+            mFirstFloatingTaskView.update(mTempRectF, /*progress=*/1f, /*windowRadius=*/0f);
+        }
 
         PagedOrientationHandler orientationHandler = getPagedOrientationHandler();
         Pair<FloatProperty, FloatProperty> taskViewsFloat =
@@ -4147,11 +4149,14 @@ public abstract class RecentsView<ACTIVITY_TYPE extends StatefulActivity<STATE_T
             int runningTaskIndex = recentsView.getRunningTaskIndex();
             if (ENABLE_QUICKSTEP_LIVE_TILE.get() && runningTaskIndex != -1
                     && runningTaskIndex != taskIndex) {
-                for (RemoteTargetHandle remoteHandle : recentsView.getRemoteTargetHandles()) {
-                    anim.play(ObjectAnimator.ofFloat(
-                            remoteHandle.getTaskViewSimulator().taskPrimaryTranslation,
-                            AnimatedFloat.VALUE,
-                            primaryTranslation));
+                final RemoteTargetHandle[] remoteTargetHandles = recentsView.getRemoteTargetHandles();
+                if (remoteTargetHandles != null) {
+                    for (RemoteTargetHandle remoteHandle : remoteTargetHandles) {
+                        anim.play(ObjectAnimator.ofFloat(
+                                remoteHandle.getTaskViewSimulator().taskPrimaryTranslation,
+                                AnimatedFloat.VALUE,
+                                primaryTranslation));
+                    }
                 }
             }
 
