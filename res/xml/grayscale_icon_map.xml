@@ -77,7 +77,7 @@
     <icon drawable="@drawable/cx_file_manager" package="com.cxinventor.file.explorer" />
     <icon drawable="@drawable/deezer" package="deezer.android.app" />
     <icon drawable="@drawable/dialer" package="com.google.android.dialer" />
-    <icon drawable="@drawable/dialer" package="com.android.dialer" />
+    <icon drawable="@drawable/dialer" package="com.android.dialer" name="Phone" />
     <icon drawable="@drawable/digital_wellbeing" package="com.google.android.apps.wellbeing" />
     <icon drawable="@drawable/discord" package="com.discord" />
     <icon drawable="@drawable/discord" package="com.aliucord" />
@@ -587,7 +587,6 @@
     <icon drawable="@drawable/syncthing" package="com.nutomic.syncthingandroid" />
     <icon drawable="@drawable/yeelight" package="com.yeelight.cherry" />
     <icon drawable="@drawable/coinvero" package="com.candlestick_app" />
-    <icon drawable="@drawable/dialer" package="com.android.dialer" />
     <icon drawable="@drawable/ps" package="air.com.adobe.pstouch" />
     <icon drawable="@drawable/ps_express" package="com.adobe.psmobile" />
     <icon drawable="@drawable/ps_camera" package="com.adobe.lens.android" />
@@ -660,8 +659,8 @@
     <icon drawable="@drawable/photon_camera" package="com.particlesdevs.photoncamera" />
     <icon drawable="@drawable/calculator" package="com.android.calculator2" />
     <icon drawable="@drawable/clock" package="com.android.deskclock " />
-    <icon drawable="@drawable/messages" package="com.android.messaging" />
-    <icon drawable="@drawable/contacts" package="com.android.contacts" />
+    <icon drawable="@drawable/messages" package="com.android.messaging" name="Messages" />
+    <icon drawable="@drawable/contacts" package="com.android.contacts" name="Contacts" />
     <icon drawable="@drawable/egov" package="kz.mobile.mgov" />
     <icon drawable="@drawable/hh" package="ru.hh.android" />
     <icon drawable="@drawable/weheartit" package="com.weheartit" />
