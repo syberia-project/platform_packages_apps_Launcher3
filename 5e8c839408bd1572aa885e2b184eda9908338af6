@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c04ef329_2e1bccf4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-06T18:22:05Z",
+      "side": 1,
+      "message": "string nees to be moved to proper place",
+      "revId": "5e8c839408bd1572aa885e2b184eda9908338af6",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b8ad78e_9f5b1219",
+        "filename": "res/values/syberia_dimens.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-06-06T18:22:05Z",
+      "side": 1,
+      "message": "Move to syb_strings.xml instead of dimens",
+      "revId": "5e8c839408bd1572aa885e2b184eda9908338af6",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
+    }
+  ]
+}
