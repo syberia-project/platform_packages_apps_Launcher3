@@ -104,6 +104,12 @@
         android:defaultValue="true"
         android:persistent="true" />
 
+    <SwitchPreference
+        android:key="pref_allow_wallpaper_scrolling"
+        android:title="@string/allow_wallpaper_scrolling"
+        android:summary="@string/allow_wallpaper_scrolling_desc"
+        android:defaultValue="true" />
+
     <com.android.launcher3.settings.preference.CustomSeekBarPreference
         android:key="pref_custom_icon_size"
         android:title="@string/icon_size_title"
