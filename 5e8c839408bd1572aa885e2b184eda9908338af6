@@ -33,6 +33,24 @@
       "message": "Move to syb_strings.xml instead of dimens",
       "revId": "5e8c839408bd1572aa885e2b184eda9908338af6",
       "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a5178d52_99c07320",
+        "filename": "res/values/syberia_dimens.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1000015
+      },
+      "writtenOn": "2022-07-26T06:27:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9b8ad78e_9f5b1219",
+      "revId": "5e8c839408bd1572aa885e2b184eda9908338af6",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
     }
   ]
 }
