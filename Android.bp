@@ -157,6 +157,7 @@ android_library {
         "animationlib",
         "libGoogleFeed",
         "SettingsLib",
+        "bcsmartspace-google",
     ],
     manifest: "AndroidManifest-common.xml",
     sdk_version: "current",
