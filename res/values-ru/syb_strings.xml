@@ -54,4 +54,8 @@
     <string name="pref_allow_phone_taskbar">Использовать панель задач</string>
     <string name="pref_allow_phone_taskbar_desc">Для запуска и переключения приложений где угодно</string>
 
+    <!-- Smartspace -->
+    <string name="smartspace_pref_title">Самое главное</string>
+    <string name="smartspace_pref_summary">Отображать виджет наверху экрана</string>
+
 </resources>

@@ -159,6 +159,7 @@ public class SettingsActivity extends CollapsingToolbarBaseActivity
         switch (key) {
             case DT2S_PREFERENCE_KEY:
             case InvariantDeviceProfile.KEY_DOCK_SEARCH:
+            case Utilities.KEY_SMARTSPACE:
                 LauncherAppState.getInstanceNoCreate().setNeedsRestart();
                 break;
             default:
