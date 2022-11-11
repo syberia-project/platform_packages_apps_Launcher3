@@ -49,4 +49,9 @@
 
     <string name="suggestion_pref_screen_title">Предложения</string>
     <string name="suggestion_pref_screen_desc">Предложения для списка всех приложений и домашнего экрана</string>
+
+    <!-- Taskbar -->
+    <string name="pref_allow_phone_taskbar">Использовать панель задач</string>
+    <string name="pref_allow_phone_taskbar_desc">Для запуска и переключения приложений где угодно</string>
+
 </resources>
