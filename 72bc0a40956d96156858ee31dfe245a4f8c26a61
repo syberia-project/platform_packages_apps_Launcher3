@@ -36,6 +36,24 @@
       "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "eb7fb7e8_b1dc87ce",
+        "filename": "src/com/android/launcher3/customization/InfoBottomSheet.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-18T12:59:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "0f46c30f_ae6cf5da",
+      "revId": "72bc0a40956d96156858ee31dfe245a4f8c26a61",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "25e72eeb_861027d9",
@@ -67,6 +85,24 @@
       "side": 1,
       "message": "Thx",
       "parentUuid": "25e72eeb_861027d9",
+      "revId": "72bc0a40956d96156858ee31dfe245a4f8c26a61",
+      "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c4c1e61f_5750748b",
+        "filename": "src/com/android/launcher3/customization/InfoBottomSheet.java",
+        "patchSetId": 1
+      },
+      "lineNbr": 124,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-11-18T12:59:06Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "548cc397_e91e2e9b",
       "revId": "72bc0a40956d96156858ee31dfe245a4f8c26a61",
       "serverId": "42502b1d-019c-4a7f-8d4c-3cb7dd1b67f8"
     }
