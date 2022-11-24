@@ -187,6 +187,10 @@
     </style>
 
     <style name="HomeSettings.Theme" parent="@style/Theme.SubSettingsBase">
+        <item name="preferenceTheme">@style/HomeSettings.PreferenceTheme</item>
+    </style>
+
+    <style name="HomeSettings.PreferenceTheme" parent="@style/PreferenceTheme.SettingsLib">
         <item name="preferenceFragmentCompatStyle">@style/HomeSettings.FragmentCompatStyle</item>
     </style>
 
