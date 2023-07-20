@@ -425,7 +425,7 @@ public class QuickstepLauncher extends Launcher {
     public Stream<SystemShortcut.Factory> getSupportedShortcuts() {
         // Order matters as it affects order of appearance in popup container
         List<SystemShortcut.Factory> shortcuts = new ArrayList(Arrays.asList(
-                APP_INFO, UNINSTALL, WellbeingModel.SHORTCUT_FACTORY, mHotseatPredictionController));
+                APP_INFO, WellbeingModel.SHORTCUT_FACTORY, mHotseatPredictionController));
         shortcuts.addAll(getSplitShortcuts());
         shortcuts.add(UNINSTALL);
         shortcuts.add(PAUSE_APPS);
