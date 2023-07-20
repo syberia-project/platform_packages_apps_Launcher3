@@ -37,7 +37,7 @@
             style="@style/OverviewActionButton"
             android:layout_width="60dp"
             android:layout_height="36dp"
-            android:foreground="@drawable/ic_screenshot"
+            android:foreground="@drawable/ic_launcher_screenshot"
             android:layout_gravity="center_vertical"
             android:foregroundGravity="center" />
 
