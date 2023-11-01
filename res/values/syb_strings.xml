@@ -190,4 +190,8 @@
     <string name="trust_apps_info_hidden">Hidden apps and their widgets are hidden from the drawer</string>
     <string name="trust_apps_info_protected">Protected apps require authentication to be opened from the launcher</string>
 
+    <!-- Task lock -->
+    <string name="task_menu_item_unlock">Unlock</string>
+    <string name="task_menu_item_lock">Lock</string>
+
 </resources>
